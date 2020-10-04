@@ -12,7 +12,7 @@ import requests
 from lxml import html
 from requests.exceptions import ConnectionError, HTTPError
 
-from rest.iglink.cache import cached_token
+from .cache import cached_token
 
 SCRIPT_JSON_PREFIX = 18
 SCRIPT_JSON_DATA_INDEX = 21
