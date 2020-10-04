@@ -1,6 +1,6 @@
 from django import forms
 
-from rest.iglink.models import InstagramAPISettings
+from .models import InstagramAPISettings
 
 
 class IGApiForm(forms.ModelForm):
