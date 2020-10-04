@@ -57,5 +57,8 @@ setuptools.setup(
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
     ],
+    install_requires=[
+        "lxml",
+    ],
     python_requires='>=3.6',
 )
